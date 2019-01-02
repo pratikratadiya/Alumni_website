@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Home:PICT Alumni Network</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.jpg"/>
+
+    <!-- CSS
+    ================================================== -->       
+    <!-- Bootstrap css file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Superslide css file-->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- Slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet"> 
+    <!-- Circle counter cdn css file -->
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>  
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css"> 
+    <!-- preloader -->
+    <link rel="stylesheet" href="css/queryLoader.css" type="text/css" />
+    <!-- gallery slider css -->
+    <link type="text/css" media="all" rel="stylesheet" href="css/jquery.tosrus.all.css" />    
+    <!-- Default Theme css file -->
+    <link id="switcher" href="css/themes/default-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="style.css" rel="stylesheet">
+   
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ 
+  </head>
+  <body>    
+
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"></a>
+    <!-- END SCROLL TOP BUTTON -->
+
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">  <div class="container">
+            <div class="navbar-header">
+              <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- LOGO -->
+              <!-- TEXT BASED LOGO -->
+              <a class="navbar-brand">PICT <span>Alumni Network</span></a>              
+              <!-- IMG BASED LOGO  -->
+               <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->            
+                     
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="events-archive.html">Events</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Directory<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="directory.html">By name</a></li>
+                    <li><a href="directory-place.html">By place</a></li>
+                  </ul>
+                </li>               
+                
+                <li><a href="careers.html">Careers</a></li>
+                 <li><a href="contact.html">Contact us</a></li>
+
+              </ul>           
+            </div><!--/.nav-collapse -->
+          </div>     
+        </nav>  
+      </div>
+      <!-- END MENU -->    
+    </header>
+    <!--=========== END HEADER SECTION ================--> 
+
+    <!--=========== BEGIN SLIDER SECTION ================-->
+    <section id="slider">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="slider_area">
+            <!-- Start super slider -->
+            <div id="slides">
+              <ul class="slides-container">                          
+                <li>
+                  <img src="img/slider/2.jpg" alt="img">
+                   <div class="slider_caption">
+                    <h2>Welcome to PICT Alumni Network</h2>
+                    <p>A platform to connect the alumnis of the prestigious institution named PICT!<br>Also get to
+                    know the latest happenings in the alumni community</p>
+                    <a class="slider_btn" href="#">Sign In</a>
+                  </div>
+                  </li>
+                <!-- Start single slider-->
+                <li>
+                  <img src="img/slider/3.jpg" alt="img">
+                   <div class="slider_caption slider_right_caption">
+                    <h2>Relive the past</h2>
+                    <p>Stroll through the wonderful time you spent here by visiting the gallery section. Send any photos you have to us. Also search for any of your college mates in the directory.</p>
+                    <a class="slider_btn" href="gallery.html">Know More</a>
+                  </div>
+                </li>
+                <!-- Start single slider-->
+                <li>
+                  <img src="img/slider/4.jpg" alt="img">
+                   <div class="slider_caption">
+                    <h2>Linking the past and the future!</h2>
+                    <p>Alumnis can post any job or internships they would like to offer to the students of our college. They can also contribute to the college by other ways as well. Current students can avail these benefits and also make use of the discussion forum to discuss with experienced seniors</p>
+                    <a class="slider_btn" href="careers.html">Know More</a>
+                  </div>
+                </li>
+              </ul>
+              <nav class="slides-navigation">
+                <a href="#" class="next"></a>
+                <a href="#" class="prev"></a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END SLIDER SECTION ================-->
+
+    <!--=========== BEGIN ABOUT US SECTION ================-->
+    <section id="aboutUs">
+      <div class="container">
+        <div class="row">
+        <!-- Start about us area -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="aboutus_area wow fadeInLeft">
+            <h2 class="titile">PICT Alumni Network</h2>
+            <p>Pune Institute of Computer Technology, abbreviated as PICT has been the pioneer in
+            producing engineers who have helped lead the ever developing field of technology. PICTians have
+            made their presence felt in all fields- be it industry, research or entrepreneurship as well. PICT Alumni
+            Network is a platform to connect all these brilliant people who were once students of this college.
+            To relive those memories, to contribute to the institute, to  share their experiences, to get to know
+            about happenings in the alumni community and a platform to interact with the current students of the college-in short this is the platform to make you feel a part of the PICT Family!</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="newsfeed_area wow fadeInRight">
+            <ul class="nav nav-tabs feed_tabs" id="myTab2">
+              <li class="active"><a href="#news" data-toggle="tab">Alumni News</a></li>
+              <li><a href="#notice" data-toggle="tab">Notice</a></li>
+              <li><a href="#events" data-toggle="tab">Events</a></li>         
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <!-- Start news tab content -->
+              <div class="tab-pane fade in active" id="news">                
+                <ul class="news_tab">
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="img/news.jpg" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">Alumni News number 1</a>
+                       <span class="feed_date">xx.yy.zzzz</span>
+                      </div>
+                    </div>                    
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="img/news.jpg" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">Alumni News number 2</a>
+                       <span class="feed_date">xx.yy.zzzz</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="img/news.jpg" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">Alumni News number 3</a>
+                       <span class="feed_date">xx.yy.zzzz</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>                
+                <a class="see_all" href="#">See All</a>
+              </div>
+              <!-- Start notice tab content -->  
+              <div class="tab-pane fade " id="notice">
+                <div class="single_notice_pane">
+                  <ul class="news_tab">
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="img/news.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">This is notice number 1</a>
+                         <span class="feed_date">xx.yy.zzzz</span>
+                        </div>
+                      </div>                   
+                    </li>
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="img/notice.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">This is notice number 2</a>
+                         <span class="feed_date">xx.yy.zzzz</span>             
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="img/notice.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">This is notice number 3</a>
+                         <span class="feed_date">xx.yy.zzzz</span>             
+                        </div>
+                      </div>
+                    </li>                                    
+                  </ul>
+                  <ul class="news_tab">
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="img/notice.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">This is notice number 4</a>
+                         <span class="feed_date">xx.yy.zzzz</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="img/notice.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">This is notice number 5</a>
+                         <span class="feed_date">xx.yy.zzzz</span>          
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="img/notice.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">This is notice number 6</a>
+                         <span class="feed_date">xx.yy.zzzz</span>
+                        </div>
+                      </div>
+                    </li>                                    
+                  </ul>
+                </div>               
+              </div>
+              <!-- Start events tab content -->
+              <div class="tab-pane fade " id="events">
+                <ul class="news_tab">
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="img/news.jpg" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">This article is about event number 1</a>
+                       <span class="feed_date">xx.yy.zzzz</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="img/news.jpg" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">This article is about event number 2</a>
+                       <span class="feed_date">xx.yy.zzzz</span>                
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="img/news.jpg" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">This article is about event number 3</a>
+                       <span class="feed_date">xx.yy.zzzz</span>                
+                      </div>
+                    </div>
+                  </li>                  
+                </ul>
+                <a class="see_all" href="#">See All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--=========== END ABOUT US SECTION ================--> 
+
+    <!--=========== BEGIN WHY US SECTION ================-->
+    <section id="whyUs">
+      <!-- Start why us top -->
+      <div class="row">        
+        <div class="col-lg-12 col-sm-12">
+          <div class="whyus_top">
+            <div class="container">
+              <!-- Why us top titile -->
+              <div class="row">
+                <div class="col-lg-12 col-md-12"> 
+                  <div class="title_area">
+                    <h2 class="title_two">Features of this site</h2>
+                    <span></span> 
+                  </div>
+                </div>
+              </div>
+              <!-- End Why us top titile -->
+              <!-- Start Why us top content  -->
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-desktop"></span>
+                    </div>
+                    <h3>Connect Online</h3>
+                    <p>Connect with alumnis of PICT throughout the world-just on a click!</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-users"></span>
+                    </div>
+                    <h3>Get Meet info</h3>
+                    <p>Get to know information about PICT alumni meets throughout the world and also about major events being conducted by the college fraternity</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-flask"></span>
+                    </div>
+                    <h3>Career opportunities</h3>
+                    <p>Post internships, jobs if you are an entrepreneur or apply for the same if you are looking for one</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-support"></span>
+                    </div>
+                    <h3>Junior-Senior connect</h3>
+                    <p>Get information about fellow juniors or seniors in an area and have a conversation on the discussion forum</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Why us top content  -->
+            </div>
+          </div>
+        </div>        
+      </div>
+      <!-- End why us top -->
+
+      <!-- Start why us bottom -->
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <div class="whyus_bottom">            
+            <div class="slider_overlay"></div>
+            <div class="container">               
+              <!-- Why us top titile -->
+              <div class="row">
+                <div class="col-lg-12 col-md-12"> 
+                  <div class="title_area">
+                    <h2 class="title_two" style="color:white;">PICT Alumni Statistics</h2>
+                    <span></span> 
+                  </div>
+                </div>
+              </div>
+              <!-- End Why us top titile -->              
+
+              <div class="skills">                
+                <!-- START SINGLE SKILL-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                 <div class="single_skill wow fadeInUp">
+                   <div id="myStat" data-dimension="150" data-info="" data-width="10" data-fontsize="25" data-percent="90" data-fgcolor="#999" data-bgcolor="#fff"></div>
+                    <h4>No. of Alumnis</h4>                      
+                  </div>
+                </div>
+                <!-- START SINGLE SKILL-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_skill wow fadeInUp">
+                    <div id="myStathalf2" data-dimension="150" data-info="" data-width="10" data-fontsize="25" data-percent="20" data-fgcolor="#999" data-bgcolor="#fff"></div>
+                    <h4>Countries</h4>
+                  </div>
+                </div>
+                <!-- START SINGLE SKILL-->
+                <div class="col-lg-3 col-md-3 col-sm-3">                 
+                  <div class="single_skill wow fadeInUp">
+                    <div id="myStat2" data-dimension="150" data-info="" data-width="10" data-fontsize="25" data-percent="75" data-fgcolor="#999" data-bgcolor="#fff"></div>
+                    <h4>Alumnis in India</h4>
+                  </div>
+                </div>
+                <!-- START SINGLE SKILL-->
+                <div class="col-lg-3 col-md-3 col-sm-3">                 
+                  <div class="single_skill wow fadeInUp">
+                    <div id="myStat3" data-dimension="150" data-info="200" data-width="10" data-fontsize="25" data-percent="44" data-fgcolor="#999" data-bgcolor="#fff"></div>
+                    <h4>Alumnis in Maharashtra</h4>
+                  </div>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>        
+      </div>
+      <!-- End why us bottom -->
+    </section>
+    <!--=========== END WHY US SECTION ================-->
+
+    <!--=========== BEGIN OUR TUTORS SECTION ================-->
+    <section id="ourTutors">
+      <div class="container">
+       <!-- Our courses titile -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="title_area">
+              <h2 class="title_two">Notable Alumni</h2>
+              <span></span> 
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses titile -->
+
+        <!-- Start Our courses content -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="ourTutors_content">
+              <!-- Start Tutors nav -->
+              <ul class="tutors_nav">
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="img/author.jpg" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Alumni Name 1</h3>
+                      <span>Batch of xxxx</span>
+                      <p>The alumni is currently doing so and so work in his work place.</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="img/course-1.jpg" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Alumni Name 2</h3>
+                      <span>Batch of xxxx</span>
+                      <p>The alumni is currently doing so and so work in his work place.</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="img/author.jpg" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Alumni Name 3</h3>
+                      <span>Batch of xxxx</span>
+                      <p>The alumni is currently doing so and so work in his work place.</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="img/course-1.jpg" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Alumni Name 4</h3>
+                      <span>Batch of xxxx</span>
+                      <p>The alumni is currently doing so and so work in his work place.</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="img/author.jpg" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Alumni Name 5</h3>
+                      <span>Batch of xxxx</span>
+                      <p>The alumni is currently doing so and so work in his work place.</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="img/course-1.jpg" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Alumni Name 6</h3>
+                      <span>Batch of xxxx</span>
+                      <p>The alumni is currently doing so and so work in his work place.</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>                                             
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses content -->
+      </div>
+    </section>
+    <!--=========== END OUR TUTORS SECTION ================-->
+
+    <!--=========== BEGIN OUR COURSES SECTION ================-->
+    <section id="ourCourses">
+      <div class="container">
+       <!-- Our courses titile -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="title_area">
+              <h2 class="title_two">Alumni Needs</h2>
+              <span></span> 
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses titile -->
+        <!-- Start Our courses content -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="ourCourse_content">
+              <ul class="course_nav">
+                <li>
+                  <div class="single_course">
+                    <div class="singCourse_imgarea">
+                      <img src="img/course-1.jpg" />
+                      <div class="mask">                         
+                        <a href="#" class="course_more">Contact</a>
+                      </div>
+                    </div>
+                    <div class="singCourse_content">
+                    <h3 class="singCourse_title"><a href="#">Title of the Job</a></h3>
+                    <p class="singCourse_price"><span>Salary</span> Per Month</p>
+                    <p>This section will mention what the alumni is requiring and the exact specification of the job</p>
+                    </div>
+                    <div class="singCourse_author">
+                      <img src="img/author.jpg" alt="img">
+                      <p>Alumni Name, place</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_course">
+                    <div class="singCourse_imgarea">
+                      <img src="img/course-1.jpg" />
+                      <div class="mask">                         
+                        <a href="#" class="course_more">Contact</a>
+                      </div>
+                    </div>
+                    <div class="singCourse_content">
+                    <h3 class="singCourse_title"><a href="#">Title of the Job</a></h3>
+                    <p class="singCourse_price"><span>Salary</span> Per Month</p>
+                    <p>This section will mention what the alumni is requiring and the exact specification of the job</p>
+                    </div>
+                    <div class="singCourse_author">
+                      <img src="img/author.jpg" alt="img">
+                      <p>Alumni Name, place</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_course">
+                    <div class="singCourse_imgarea">
+                      <img src="img/course-1.jpg" />
+                      <div class="mask">                         
+                        <a href="#" class="course_more">Contact</a>
+                      </div>
+                    </div>
+                    <div class="singCourse_content">
+                    <h3 class="singCourse_title"><a href="#">Title of the Job</a></h3>
+                    <p class="singCourse_price"><span>Salary</span> Per Month</p>
+                    <p>This section will mention what the alumni is requiring and the exact specification of the job</p>
+                    </div>
+                    <div class="singCourse_author">
+                      <img src="img/author.jpg" alt="img">
+                      <p>Alumni Name, place</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_course">
+                    <div class="singCourse_imgarea">
+                      <img src="img/course-1.jpg" />
+                      <div class="mask">                         
+                        <a href="#" class="course_more">Contact</a>
+                      </div>
+                    </div>
+                    <div class="singCourse_content">
+                    <h3 class="singCourse_title"><a href="#">Title of the Job</a></h3>
+                    <p class="singCourse_price"><span>Salary</span> Per Month</p>
+                    <p>This section will mention what the alumni is requiring and the exact specification of the job</p>
+                    </div>
+                    <div class="singCourse_author">
+                      <img src="img/author.jpg" alt="img">
+                      <p>Alumni Name, place</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_course">
+                    <div class="singCourse_imgarea">
+                      <img src="img/course-1.jpg" />
+                      <div class="mask">                         
+                        <a href="#" class="course_more">Contact</a>
+                      </div>
+                    </div>
+                    <div class="singCourse_content">
+                    <h3 class="singCourse_title"><a href="#">Title of the Job</a></h3>
+                    <p class="singCourse_price"><span>Salary</span> Per Month</p>
+                    <p>This section will mention what the alumni is requiring and the exact specification of the job</p>
+                    </div>
+                    <div class="singCourse_author">
+                      <img src="img/author.jpg" alt="img">
+                      <p>Alumni Name, place</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_course">
+                    <div class="singCourse_imgarea">
+                      <img src="img/course-1.jpg" />
+                      <div class="mask">                         
+                        <a href="#" class="course_more">Contact</a>
+                      </div>
+                    </div>
+                    <div class="singCourse_content">
+                    <h3 class="singCourse_title"><a href="#">Title of the Job</a></h3>
+                    <p class="singCourse_price"><span>Salary</span> Per Month</p>
+                    <p>This section will mention what the alumni is requiring and the exact specification of the job</p>
+                    </div>
+                    <div class="singCourse_author">
+                      <img src="img/author.jpg" alt="img">
+                      <p>Alumni Name, place</p>
+                    </div>
+                  </div>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses content -->
+      </div>
+    </section>
+    <!--=========== END OUR COURSES SECTION ================-->  
+
+
+    <!--=========== BEGIN STUDENTS TESTIMONIAL SECTION ================-->
+    <section id="studentsTestimonial">
+      <div class="container">
+       <!-- Our courses titile -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="title_area">
+              <h2 class="title_two">From the Administration</h2>
+              <span></span> 
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses titile -->
+
+        <!-- Start Our courses content -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="studentsTestimonial_content">              
+              <div class="row">
+                <!-- start single student testimonial -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_stsTestimonial wow fadeInUp">
+                    <div class="stsTestimonial_msgbox">
+                      <p>This will be the message by the principal given in some 4-5 lines</p>
+                    </div>
+                    <img class="stsTesti_img" src="img/author.jpg" alt="img">
+                    <div class="stsTestimonial_content">
+                      <h3>Mr. Prahlad Kulkarni</h3>                      
+                      <span>Principal</span>
+                      <p>PICT</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single student testimonial -->
+                <!-- start single student testimonial -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_stsTestimonial wow fadeInUp">
+                    <div class="stsTestimonial_msgbox">
+                      <p>This will be the message by Mr. Ingle Sir given in some 4-5 lines</p>
+                    </div>
+                    <img class="stsTesti_img" src="img/author.jpg" alt="img">
+                    <div class="stsTestimonial_content">
+                      <h3>Mr. Rajesh Ingle</h3>                      
+                      <span>Head of Department</span>
+                      <p>Computer Department</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single student testimonial -->
+                <!-- start single student testimonial -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_stsTestimonial wow fadeInUp">
+                    <div class="stsTestimonial_msgbox">
+                      <p>This will be the message by sir given in some 4-5 lines</p>
+                    </div>
+                    <img class="stsTesti_img" src="img/author.jpg" alt="img">
+                    <div class="stsTestimonial_content">
+                      <h3>Person Name</h3>                      
+                      <span>Designation</span>
+                      <p>Location</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single student testimonial -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses content -->
+      </div>
+    </section>
+    <!--=========== END STUDENTS TESTIMONIAL SECTION ================-->    
+    
+    <!--=========== BEGIN FOOTER SECTION ================-->
+    <footer id="footer">
+      <!-- Start footer top area -->
+      <div class="footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>About Us</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>Community</h3>
+                <ul class="footer_widget_nav">
+                  <li><a href="#">Meets</a></li>
+                  <li><a href="#">Members</a></li>
+                  <li><a href="#">Forum</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>Others</h3>
+                <ul class="footer_widget_nav">
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a></li>
+                  <li><a href="#">Link 4</a></li>
+                  <li><a href="#">Link 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>Social Links</h3>
+                <ul class="footer_social">
+                  <li><a data-toggle="tooltip" data-placement="top" title="Facebook" class="soc_tooltip" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Twitter" class="soc_tooltip"  href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Google+" class="soc_tooltip"  href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Linkedin" class="soc_tooltip"  href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Youtube" class="soc_tooltip"  href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End footer top area -->
+
+      <!-- Start footer bottom area -->
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="footer_bootomLeft">
+                <p> Copyright &copy; All Rights Reserved</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="footer_bootomRight">
+                <p>Designed by <a href="https://www.linkedin.com/in/pratik-ratadiya-88622914a/" rel="nofollow">Pratik Ratadiya</a> &amp;<a href="https://www.linkedin.com/in/dhwani-shah-40222a14a/" rel="nofollow"> Dhwani Shah</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End footer bottom area -->
+    </footer>
+    <!--=========== END FOOTER SECTION ================--> 
+
+  
+
+    <!-- Javascript Files
+    ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Preloader js file -->
+    <script src="js/queryloader2.min.js" type="text/javascript"></script>
+    <!-- For smooth animatin  -->
+    <script src="js/wow.min.js"></script>  
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- superslides slider -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.animate-enhanced.min.js"></script>
+    <script src="js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>   
+    <!-- for circle counter -->
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <!-- Gallery slider -->
+    <script type="text/javascript" language="javascript" src="js/jquery.tosrus.min.all.js"></script>   
+   
+    <!-- Custom js-->
+    <script src="js/custom.js"></script>
+
+
+  </body>
+</html>
